@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.verification-*/
+data/
+models/
+outputs/
+*.pt
+*.pth
+*.pkl
+*.pk
+*.bin
+*.safetensors
+*.log
+dist/

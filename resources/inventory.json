@@ -1,0 +1,122 @@
+{
+  "files": [
+    {
+      "original_path": "data/IEMOCAP/iemocap_multimodal_features.pkl",
+      "path": "resources/placeholders/features/iemocap_multimodal_features.pkl.txt",
+      "kind": "feature_filename_placeholder",
+      "bytes": 31,
+      "sha256": "6fdb83f434511b164fe4170b35d337c4f9bec2278ad6ae3a6ff481832ef9a9d7"
+    },
+    {
+      "original_path": "data/IEMOCAP/test.txt",
+      "path": "resources/dataset_metadata/iemocap/test.tsv",
+      "kind": "text_metadata",
+      "bytes": 148151,
+      "sha256": "6eba8c5cd4ab3d831f46cb8ba6ba6e27b14bddb4c52c0d263881ad39be2222c9"
+    },
+    {
+      "original_path": "data/IEMOCAP/train.txt",
+      "path": "resources/dataset_metadata/iemocap/development.tsv",
+      "kind": "text_metadata",
+      "bytes": 502811,
+      "sha256": "ad6a34626aaccd713d20078e4dc5518605afbd7f8b730975d49ed488c746f5f0"
+    },
+    {
+      "original_path": "data/IEMOCAP/valid.txt",
+      "path": "resources/placeholders/splits/iemocap_valid.txt",
+      "kind": "empty_split_placeholder",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_path": "data/MELD/meld_multimodal_features.pkl",
+      "path": "resources/placeholders/features/meld_multimodal_features.pkl.txt",
+      "kind": "feature_filename_placeholder",
+      "bytes": 28,
+      "sha256": "97d7261d2dfd3db80c0beaacd44370ec2d5328722dce172d070229159d481492"
+    },
+    {
+      "original_path": "data/MELD/test.csv",
+      "path": "resources/dataset_metadata/meld/test.csv",
+      "kind": "text_metadata",
+      "bytes": 290841,
+      "sha256": "2d3fdb6586bdcdf172a7197fae9244116b1103efd951db2317e6a67c7042d28e"
+    },
+    {
+      "original_path": "data/MELD/train.csv",
+      "path": "resources/dataset_metadata/meld/train.csv",
+      "kind": "text_metadata",
+      "bytes": 1105356,
+      "sha256": "b40d8a5a57adc67367ec23deffe91a969e335d087666e3bd8250538156cbaf03"
+    },
+    {
+      "original_path": "data/MELD/valid.csv",
+      "path": "resources/dataset_metadata/meld/val.csv",
+      "kind": "text_metadata",
+      "bytes": 119974,
+      "sha256": "1fa78cc6fc6ffb5e1738e37b63bc5854d75dae29bd8965fd85275073f61e2ecd"
+    },
+    {
+      "original_path": "data/readme.txt",
+      "path": "resources/placeholders/original_readmes/data.txt",
+      "kind": "original_readme",
+      "bytes": 17,
+      "sha256": "4a4ecd710fa7eb90c646caf4845109ae042c8690afac399c8bdaa5bf833c8d73"
+    },
+    {
+      "original_path": "fig/corruption_robustness.pdf",
+      "path": "resources/figures/corruption_robustness.pdf",
+      "kind": "reference_figure",
+      "bytes": 153762,
+      "sha256": "2d0e0d5cfe537bdd91194cf43ade009b7c3c391de407684360a5e611a1a0e47f"
+    },
+    {
+      "path": "resources/figures/ecra_framework.pdf",
+      "kind": "reference_figure",
+      "bytes": 257286,
+      "sha256": "855f9ec454503679fa72da3c368dac2f0a8401782f06adc5d92e92e46104ca83"
+    },
+    {
+      "original_path": "fig/missing_modality.pdf",
+      "path": "resources/figures/missing_modality.pdf",
+      "kind": "reference_figure",
+      "bytes": 17851,
+      "sha256": "5627fbd9e2ef9fa5e6961fd14cf1b01d38bfe645bf21b307f4784eb645799d07"
+    },
+    {
+      "original_path": "fig/quality_gate_sensitivity.pdf",
+      "path": "resources/figures/quality_gate_sensitivity.pdf",
+      "kind": "reference_figure",
+      "bytes": 19512,
+      "sha256": "8e0626bbba06004dcf09b4462317c4c4f863578ce5a3e5559701c5724afc2155"
+    },
+    {
+      "original_path": "fig/vad_prototypes.pdf",
+      "path": "resources/figures/vad_prototypes.pdf",
+      "kind": "reference_figure",
+      "bytes": 20436,
+      "sha256": "8b6ea9059946b2f7b368a837210b4c93f7530fedb6b72e3a663320a338f43da3"
+    },
+    {
+      "original_path": "result/IEMOCAP.txt",
+      "path": "resources/results/IEMOCAP.txt",
+      "kind": "supplied_classification_report",
+      "bytes": 2935,
+      "sha256": "66ba0b14aefcf594d05d65cd70578249778d12406e486376a0d8be05128bf62c"
+    },
+    {
+      "original_path": "result/MELD.txt",
+      "path": "resources/results/MELD.txt",
+      "kind": "supplied_classification_report",
+      "bytes": 3189,
+      "sha256": "de1270d2bbc66915d8a150af5dba108d6c27d5d0379feb5f525a9a0c99029cf9"
+    },
+    {
+      "original_path": "result/README.txt",
+      "path": "resources/placeholders/original_readmes/results.txt",
+      "kind": "original_readme",
+      "bytes": 7,
+      "sha256": "daa640764ebb04d2164e8dc8c98b240b242e44ef3fc984677ef9ba586159827a"
+    }
+  ]
+}

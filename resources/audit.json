@@ -1,0 +1,234 @@
+{
+  "inventory_files_verified": 17,
+  "resource_bytes": 2642187,
+  "dataset_metadata": {
+    "iemocap": {
+      "development.tsv": {
+        "text_lines": 5747
+      },
+      "test.tsv": {
+        "text_lines": 1622
+      }
+    },
+    "meld": {
+      "test.csv": {
+        "parsed_rows": 2610,
+        "dialogue_ids": 280
+      },
+      "train.csv": {
+        "parsed_rows": 9988,
+        "dialogue_ids": 1038
+      },
+      "val.csv": {
+        "parsed_rows": 1108,
+        "dialogue_ids": 114
+      }
+    }
+  },
+  "supplied_reports": {
+    "iemocap": {
+      "source": "rounded classification-report body metrics; headers audited separately",
+      "reports": [
+        {
+          "supplied_seed_label": 1,
+          "accuracy_percent": 74.55000000000001,
+          "weighted_f1_percent": 74.7,
+          "macro_f1_percent": 74.08,
+          "support": 1623.0,
+          "header_accuracy_percent": 74.55,
+          "header_weighted_f1_percent": 74.7,
+          "header_matches_body": true,
+          "class_summary_consistent_with_rounding": true,
+          "class_summary_differences": {
+            "accuracy": 1.250770178673477e-05,
+            "weighted_f1": -3.2162661737555887e-05,
+            "macro_f1": -1.666666666666483e-05
+          }
+        },
+        {
+          "supplied_seed_label": 2,
+          "accuracy_percent": 74.61,
+          "weighted_f1_percent": 74.8,
+          "macro_f1_percent": 74.22999999999999,
+          "support": 1623.0,
+          "header_accuracy_percent": 74.61,
+          "header_weighted_f1_percent": 74.8,
+          "header_matches_body": true,
+          "class_summary_consistent_with_rounding": true,
+          "class_summary_differences": {
+            "accuracy": 2.4522489217471133e-05,
+            "weighted_f1": -4.775107825016889e-05,
+            "macro_f1": -4.999999999999449e-05
+          }
+        },
+        {
+          "supplied_seed_label": 3,
+          "accuracy_percent": 74.74,
+          "weighted_f1_percent": 74.88,
+          "macro_f1_percent": 74.39,
+          "support": 1623.0,
+          "header_accuracy_percent": 74.74,
+          "header_weighted_f1_percent": 74.88,
+          "header_matches_body": true,
+          "class_summary_consistent_with_rounding": true,
+          "class_summary_differences": {
+            "accuracy": -1.3431916204509342e-05,
+            "weighted_f1": -3.265557609377634e-05,
+            "macro_f1": 3.333333333332966e-05
+          }
+        },
+        {
+          "supplied_seed_label": 4,
+          "accuracy_percent": 74.8,
+          "weighted_f1_percent": 74.96000000000001,
+          "macro_f1_percent": 74.53999999999999,
+          "support": 1623.0,
+          "header_accuracy_percent": 74.8,
+          "header_weighted_f1_percent": 74.96,
+          "header_matches_body": true,
+          "class_summary_consistent_with_rounding": true,
+          "class_summary_differences": {
+            "accuracy": 1.232285891106244e-07,
+            "weighted_f1": -4.929143561427374e-06,
+            "macro_f1": -6.66666666665483e-05
+          }
+        },
+        {
+          "supplied_seed_label": 5,
+          "accuracy_percent": 74.86,
+          "weighted_f1_percent": 74.99,
+          "macro_f1_percent": 74.48,
+          "support": 1623.0,
+          "header_accuracy_percent": 74.86,
+          "header_weighted_f1_percent": 74.99,
+          "header_matches_body": true,
+          "class_summary_consistent_with_rounding": true,
+          "class_summary_differences": {
+            "accuracy": 1.7252002464385185e-06,
+            "weighted_f1": 3.530499075787841e-05,
+            "macro_f1": -1.666666666666483e-05
+          }
+        }
+      ],
+      "summary": {
+        "accuracy_percent": {
+          "mean": 74.712,
+          "sample_sd": 0.12949903474543303
+        },
+        "weighted_f1_percent": {
+          "mean": 74.866,
+          "sample_sd": 0.11865917579353011
+        },
+        "macro_f1_percent": {
+          "mean": 74.344,
+          "sample_sd": 0.18822858443924056
+        }
+      },
+      "header_mismatch_seeds": [],
+      "all_class_summaries_consistent": true,
+      "identical_report_bodies": []
+    },
+    "meld": {
+      "source": "rounded classification-report body metrics; headers audited separately",
+      "reports": [
+        {
+          "supplied_seed_label": 1,
+          "accuracy_percent": 68.31,
+          "weighted_f1_percent": 67.35,
+          "macro_f1_percent": 51.51,
+          "support": 2610.0,
+          "header_accuracy_percent": 68.31,
+          "header_weighted_f1_percent": 67.35,
+          "header_matches_body": true,
+          "class_summary_consistent_with_rounding": true,
+          "class_summary_differences": {
+            "accuracy": 3.82375478926722e-05,
+            "weighted_f1": -4.559386973179702e-05,
+            "macro_f1": -4.285714285712228e-05
+          }
+        },
+        {
+          "supplied_seed_label": 2,
+          "accuracy_percent": 68.16,
+          "weighted_f1_percent": 67.42,
+          "macro_f1_percent": 51.7,
+          "support": 2610.0,
+          "header_accuracy_percent": 68.16,
+          "header_weighted_f1_percent": 67.42,
+          "header_matches_body": true,
+          "class_summary_consistent_with_rounding": true,
+          "class_summary_differences": {
+            "accuracy": 1.5708812260539773e-05,
+            "weighted_f1": 7.662835244115485e-08,
+            "macro_f1": 0.0
+          }
+        },
+        {
+          "supplied_seed_label": 3,
+          "accuracy_percent": 68.31,
+          "weighted_f1_percent": 67.52,
+          "macro_f1_percent": 51.92,
+          "support": 2610.0,
+          "header_accuracy_percent": 68.31,
+          "header_weighted_f1_percent": 67.52,
+          "header_matches_body": true,
+          "class_summary_consistent_with_rounding": true,
+          "class_summary_differences": {
+            "accuracy": 5.114942528727795e-05,
+            "weighted_f1": 7.318007662737713e-06,
+            "macro_f1": 1.4285714285744433e-05
+          }
+        },
+        {
+          "supplied_seed_label": 4,
+          "accuracy_percent": 68.35,
+          "weighted_f1_percent": 67.63,
+          "macro_f1_percent": 51.470000000000006,
+          "support": 2610.0,
+          "header_accuracy_percent": 68.35,
+          "header_weighted_f1_percent": 67.63,
+          "header_matches_body": true,
+          "class_summary_consistent_with_rounding": true,
+          "class_summary_differences": {
+            "accuracy": 2.206896551726345e-05,
+            "weighted_f1": 2.467432950192805e-05,
+            "macro_f1": -1.4285714285744433e-05
+          }
+        },
+        {
+          "supplied_seed_label": 5,
+          "accuracy_percent": 68.58,
+          "weighted_f1_percent": 67.62,
+          "macro_f1_percent": 51.9,
+          "support": 2610.0,
+          "header_accuracy_percent": 68.58,
+          "header_weighted_f1_percent": 67.62,
+          "header_matches_body": true,
+          "class_summary_consistent_with_rounding": true,
+          "class_summary_differences": {
+            "accuracy": 5.2758620689652425e-05,
+            "weighted_f1": 5.636015325671817e-05,
+            "macro_f1": 2.8571428571377844e-05
+          }
+        }
+      ],
+      "summary": {
+        "accuracy_percent": {
+          "mean": 68.342,
+          "sample_sd": 0.15155856953666463
+        },
+        "weighted_f1_percent": {
+          "mean": 67.508,
+          "sample_sd": 0.12275992831539259
+        },
+        "macro_f1_percent": {
+          "mean": 51.7,
+          "sample_sd": 0.21059439688652581
+        }
+      },
+      "header_mismatch_seeds": [],
+      "all_class_summaries_consistent": true,
+      "identical_report_bodies": []
+    }
+  }
+}
